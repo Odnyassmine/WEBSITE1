@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="test.css">
+   </head>
+   <body>
+     <div id="div0">
+         <input type="text" id="in1" placeholder="Enter you name"><br>
+         <input type="password" id="in2" placeholder="Enter a password"><br>
+         <span id="s1" style="color: red;"></span><br>
+         <input type="checkbox" id="addUserCheckbox">
+       <label for="addUserCheckbox">Add User</label>
+     </div>
+
+     
+
+        <div id="div2">
+        <form action="http://127.0.0.1:5500/index.html" onsubmit="return login()">
+                <label for="in3">UserName:</label>
+                <input type="text" id="in3"><br>
+                <label for="in4">Password:</label>
+                <input type="password" id="in4"><br>
+                <span id="s2" style="color: red;"></span><br>
+                <input type="checkbox" onclick="showPass()"> Show password
+                <input type="submit" value="login"> 
+              </form>
+     </div>
+    </body>
+
+    <script src="js/script.js"></script>
+
+</html>

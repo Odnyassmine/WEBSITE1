@@ -1,0 +1,31 @@
+div{
+    border: 3px solid rgb(17, 17, 17);
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 20px;
+    }
+    
+
+    body {
+       
+        background-image: url("login.jpg"); 
+        background-size: cover; 
+        background-position: center center; 
+        
+        }
+
+
+
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    
